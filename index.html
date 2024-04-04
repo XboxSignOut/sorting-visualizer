@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <title>Sorting Visualizer</title>
+  </head>
+  <body>
+    <h1>
+      <span class="material-symbols-outlined"> music_note </span>
+      <span class="material-symbols-outlined"> music_note </span>
+      Sorting Visualizer
+      <span class="material-symbols-outlined"> music_note </span>
+      <span class="material-symbols-outlined"> music_note </span>
+    </h1>
+    <nav>
+      <ul class="buttons">
+        <li>
+          <button onclick="init()">New Array</button>
+        </li>
+        <li>
+          <button onclick="bubbleSortBtn()">Bubble Sort</button>
+        </li>
+        <li>
+          <button onclick="selectionSortBtn()">Selection Sort</button>
+        </li>
+        <li>
+          <button onclick="insertionSortBtn()">Insertion Sort</button>
+        </li>
+        <!-- <li>
+          <button onclick="mergeSortBtn()">Merge Sort</button>
+        </li>
+        <li>
+          <button onclick="quickSortBtn()">Quick Sort</button>
+        </li> -->
+      </ul>
+    </nav>
+    <br />
+
+    <div id="container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
